@@ -27,7 +27,8 @@ bcts := \
 	colibri_t20-256-v11-nand.bct \
 	colibri_t20-256-v12-nand.bct \
 	colibri_t20-512-v11-nand.bct \
-	colibri_t20-512-v12-nand.bct
+	colibri_t20-512-v12-nand.bct \
+	ts001.bct
 
 images := \
 	colibri_t20-256-hsmmc.img \
@@ -35,6 +36,7 @@ images := \
 	colibri_t20-256-v11-nand.img \
 	colibri_t20-256-v12-nand.img \
 	colibri_t20-512-v11-nand.img \
-	colibri_t20-512-v12-nand.img
+	colibri_t20-512-v12-nand.img \
+	ts001.img
 
 include ../../../build/post.mk
